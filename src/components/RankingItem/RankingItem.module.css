@@ -1,0 +1,28 @@
+.downTrend {
+  transform: rotate(180deg);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 20px;
+  line-height: 50px;
+  font-weight: 600;
+  background-color: var(--main-background);
+}
+
+.ranking:first-child .circle {
+  background-color: #ffbf0061;
+  color: #945b00;
+}
+
+.ranking:nth-child(2) .circle {
+  background-color: #dadada;
+  color: #5f5e5e;
+}
+
+.ranking:nth-child(3) .circle {
+  background-color: #cd7f3275;
+  color: #7d4700;
+}

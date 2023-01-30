@@ -1,0 +1,7 @@
+.amount {
+  padding: 0.35rem 0.6rem;
+  border-radius: 20px;
+  background-color: var(--main-color);
+  font-weight: 600;
+}
+
